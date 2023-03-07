@@ -11,13 +11,13 @@
 
 
 header {
-    background-image: url("/images/flower.jpg");
+    background-image: url("./images/flower.jpg");
   }
   
   /* Create two columns/boxes that floats next to each other */
 main
 {
-    background-image: url("/images/flower.jpg");
+    background-image: url("./images/flower.jpg");
     display: grid; 
     /*grid-template-columns: 10% 90%;*/ 
     grid-template-columns: 1fr 9fr; 
@@ -29,7 +29,7 @@ nav {
 }
   
 article {
-    background-image: url("/images/bg.jpeg");
+    background-image: url("./images/bg.jpeg");
     display: grid;
     grid-template-columns: 2fr 4fr 4fr; 
     grid-gap:15px;
@@ -39,7 +39,7 @@ article {
 }
   
 footer {
-    background-image: url("/images/flower.jpg");
+    background-image: url("./images/flower.jpg");
 }
 
 h1
